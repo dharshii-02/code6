@@ -1,0 +1,10 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT# Read three lines of input and convert them to integers
+a = int(input())
+b = int(input())
+m = int(input())
+
+# Line 1: Standard power (a raised to b)
+print(pow(a, b))
+
+# Line 2: Modular power (a raised to b, modulo m)
+print(pow(a, b, m))
